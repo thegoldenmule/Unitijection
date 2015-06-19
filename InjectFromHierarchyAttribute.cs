@@ -4,13 +4,6 @@ using Ninject;
 
 namespace TheGoldenMule
 {
-	/// <summary>
-	/// Retrieves (and creates if necessary) a MonoBehaviour or GameObject based on a path
-	/// and injects it into the member when UIUtils.InjectLinkages() is called.
-	/// 
-	/// See https://jira.kixeye.com/wiki/display/WCM/InjectLinkage for usage.
-	/// 
-	/// </summary>
 	[AttributeUsage(
 		AttributeTargets.Property | AttributeTargets.Field,
 		AllowMultiple = true)]
